@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  padding: 16px;
+}
+
+.App .meu-app {
+  color: #0000ff;
 }
 
 .App-logo {
