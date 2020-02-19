@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Aplicação Front-End consumindo uma [API RESTful](https://whispering-escarpment-28788.herokuapp.com/professores) com ReactJS.
 
-## Available Scripts
+Código desenvolvido apartir do desafio proposto pela empresa [Colmeia](https://aulascolmeia.com.br/).
 
-In the project directory, you can run:
+## Recursos utilizados no desenvolvimento:
 
-### `npm start`
+- ReactJS
+- Node
+- Conceito RestFul;
+- JSON data (para retornar os dados);
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Executar Localmente
 
-### `npm test`
+Caso você deseja executar o projeto na sua máquina local, basta seguir os passos abaixo:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Começando...
 
-### `npm run build`
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Pre-Requisitos
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Antes de instalar as dependências no projeto, você precisa já ter instalado na sua máquina:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
 
-### `npm run eject`
+#### Instalando as Dependências
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Abre o cmd (caso esteja utilizando o Windows) e digite a path do seu projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+cd "C:\Users\NomeDoComputador\Documents\..."
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Depois, quando estiver na pasta do projeto, basta digitar no cmd a seguinte instrução:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas no arquivo package.json:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* `node_modules` - que contêm os packages do npm que precisará para o projeto.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Executando a Aplicação
 
-### Code Splitting
+Bom, agora na mesma tela do cmd, basta iniciar o server para o projeto ser executado localmente.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+```
+npm start
 
-### Analyzing the Bundle Size
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+Agora, abre a página da aplicação em `http://localhost:3000`. E pronto a aplicação será executada de maneira local na sua máquina.     
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Nota:_Verificar no prompt o endereço do host onde a aplicação é executada_
 
-### Advanced Configuration
+O projeto também está disponível no Heroku, [ui-professores](https://ui-professor.herokuapp.com/): 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Fiquem à vontade em usar ou até mesmo testar ambas as conexões!! :)  
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
