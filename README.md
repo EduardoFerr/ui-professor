@@ -1,4 +1,4 @@
-# Aplicação Front-End consumindo uma [API RESTful](https://whispering-escarpment-28788.herokuapp.com/professores) com ReactJS.
+# Aplicação Front-End consumindo uma API RESTful com ReactJS.
 
 Código desenvolvido apartir do desafio proposto pela empresa [Colmeia](https://aulascolmeia.com.br/).
 
@@ -9,6 +9,8 @@ Código desenvolvido apartir do desafio proposto pela empresa [Colmeia](https://
 - Conceito RestFul;
 - JSON data (para retornar os dados);
 
+## Api consumida:
+https://whispering-escarpment-28788.herokuapp.com/professores - hospedada no [Heroku](www.heroku.com).
 
 ### Executar Localmente
 
